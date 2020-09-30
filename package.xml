@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>sean_navigation</name>
+  <version>1.0.0</version>
+  <description>
+    <p>URDF Description package for flitzmo</p>
+    <p>This package contains configuration data, 3D models and launch files
+for Flitzmo robot</p>
+  </description>
+  <author>TODO</author>
+  <maintainer email="TODO@email.com" />
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>amcl</run_depend>
+  <!-- Disabling till package is released -->
+  <!-- <run_depend>frontier_exploration</run_depend> -->
+  <run_depend>gmapping</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>dwa_local_planner</run_depend>
+
+  <export>
+  </export>
+</package>
